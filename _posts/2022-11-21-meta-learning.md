@@ -6,6 +6,8 @@ In this first post (aside from the Welcome one) I will expose a brief summary of
 
 As you will see, the summary will not be the latest trend, because I want to give it a more historical explanation. The State of the Art may be reviewed in a different post. Instead, this post will focus on taking an interesting tour along the Meta-Learning evolution and understanding the context to build more efficiently in the future.
 
+No need to say, but the content does not end at this post. You can contact me at [my mail](i.masmend@gmail.com) (info is also below in the blog) if you have any doubt or suggestion and I'll be happy to discuss.
+
 ## **What is Meta-Learning?**
 
 Any task or process can involve a process of learning in order to improve performance in it. Systems are no strangers to this, for example, imagine a system that has to perform some kind of face identification. The system will perform better when it has lived a learning process before. Well, that is exactly the point of Machine Learning, isn't it? But let's switch the focus. Learning itself is a process. So according to the previous statement, it can also be learned. And this is the exact definition of Meta-Learning: Learning to Learn.
