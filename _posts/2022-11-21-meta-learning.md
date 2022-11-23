@@ -168,3 +168,50 @@ To complete this recap, I'm including a couple of summaries I did some time ago 
 
 This is my first post, and writing it has been tough and has given me more work that I initially thought. However, the experience has filled me with more interest in continue making this blog live. As far as my life permits me to do it, I will be adding more content. This has just began!
 
+## **References**
+
+*[1]* **[*Picking groups instead of samples: A close look at Static Pool-based Meta-Active Learning*](https://upcommons.upc.edu/bitstream/handle/2117/179428/cMas.pdf;jsessionid=18807FB3EE2D5343E5F0DF9A5BA37D7F?sequence=1)**
+
+*[2]* **[*Evolutionary Principles in Self-Referential Learning*](https://people.idsia.ch/~juergen/diploma1987ocr.pdf)**
+
+*[3]* **[*Learning to Control Fast-Weight Memories: An Alternative to Dynamic Recurrent Networks*](https://people.idsia.ch/~juergen/FKI-147-91ocr.pdf)**
+
+*[4]* **[*Metalearning Machines Learn to Learn*](https://people.idsia.ch/~juergen/metalearning.html)**
+
+*[5]* **[*On the Optimization of a Synaptic Learning Rule*](http://www.iro.umontreal.ca/~lisa/pointeurs/bengio_1995_oban.pdf)**
+
+*[6]* **[*On learning how to learn learning strategies*](https://people.idsia.ch/~juergen/fki198-94.pdf)**
+
+*[7]* **[*What's interesting*](https://people.idsia.ch/~juergen/interest.html)**
+
+*[8]* **[*Learning To Learn Using Gradient Descent*](https://www.researchgate.net/publication/225182080_Learning_To_Learn_Using_Gradient_Descent)**
+
+*[9]* **[*Siamese Neural Networks for One-shot Image Recognition*](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)**
+
+*[10]* **[*Meta-Learning with Memory-Augmented Neural Networks*](https://proceedings.mlr.press/v48/santoro16.pdf)**
+
+*[11]* **[*Explanation of One-shot Learning with Memory-Augmented Neural Networks*](https://rylanschaeffer.github.io/content/research/one_shot_learning_with_memory_augmented_nn/main.html)**
+
+*[12]* **[*Matching Networks for One-Shot Learning*](https://arxiv.org/pdf/1606.04080.pdf)**
+
+*[13]* **[*Prototypical Networks for Few-Shot Learning*](https://arxiv.org/pdf/1703.05175.pdf)**
+
+*[14]* **[*Learning to Learn By Gradient Descent By Gradient Descent*](https://arxiv.org/pdf/1606.04474.pdf)**
+
+*[15]* **[*Optimization as a model for Few-Shot Learning*](https://openreview.net/pdf?id=rJY0-Kcll)**
+
+*[16]* **[*A simple Neural Attentive Meta-Learner*](https://arxiv.org/pdf/1707.03141.pdf)**
+
+*[17]* **[*Model-Agnostic Meta-Learning*](https://arxiv.org/pdf/1703.03400.pdf)**
+
+*[18]* **[*On First-Order Meta-Learning Algorithms*](https://arxiv.org/pdf/1803.02999.pdf)**
+
+*[19]* **[*Probabilistic Model-Agnostic Meta-Learning*](https://arxiv.org/pdf/1806.02817.pdf)**
+
+*[20]* **[*Bayesian Model-Agnostic Meta-Learning*](https://arxiv.org/pdf/1806.03836.pdf)**
+
+*[21]* **[*Online Meta-Learning*](https://arxiv.org/pdf/1902.08438.pdf)**
+
+*[22]* **[*Modular Meta-Learning with Shrinkage*](https://arxiv.org/pdf/1909.05557.pdf)**
+
+*[23]* **[*Meta-Learning Update Rules for Unsupervised Representation Learning*](https://arxiv.org/pdf/1804.00222.pdf)**
