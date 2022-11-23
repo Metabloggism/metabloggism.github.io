@@ -22,15 +22,11 @@ So that said, how does this fit in out Machine Learning (ML) interest? Well, the
   
 ![Imgur](https://i.imgur.com/zyRBmGS.png)
 
-| <b>Meta-Learning common setting</b> |
-
 Until this point, there could be a bit of confusion between Meta-Learning and other techniques. The difference is how is the schedule built and where is the data taken from. In Meta-Learning the flow works as follows:
 
 > Pretend we are aiming to solve an specific task. This task may be drawn from a bigger domain of tasks. In the example below, imagine we face a binary image classification task among a series of animal classes (monkey, dog, cat, elephant, fish, snake, hypo...). For example, imagine that we in the end will end up having to classify between dogs and snakes. We want to learn how to learn efficiently this specific task. We could define the domain as binary animal image classification tasks. The domain also includes a series of conditions below (RGB camera images, full body, denoised, real...). Now, along all the domain we may draw a series of tasks different than the one we are aiming to solve. To avoid this happening we may drop both dog and snake classes from a bag with all classes, and build tasks by picking combinations of two classes. Thus, for each task, we will have to classify images between both classes and then that will be a binary animal image classification task. These tasks will be equivalent to the samples in the Learning level (or task level) but in the Meta-Learning level. So, equivalently to what we would do at the training level we will build two (meta-)sets. One will have Meta-training tasks while the other Meta-test tasks. And yeah, if you do things correctly you would also have a Meta-validation meta-set, of course. Then, for each task we will work as always at the Learning Level, getting samples for the task and splitting them between train, validation and test (as always). At this level, we will train the model as usual, evaluate, etc., so we will end up having some performance measure (usually a Loss value). These individual task results will serve in the Meta-Learning level to evaluate the outer optimizer and making the corresponding updates. Below in the example, each task updates the model, but it is just an example. Actually, just like at the Learning level, it can work by batches (in this case, batches of tasks). Just good luck with your hardware limitations. Then the test set is used to evaluate by any given metric.
   
 ![Imgur](https://i.imgur.com/a9Fr97l.png)
-
-| <b>Meta-Learning example</b> |
 
 Note that all this process is designed from the beginning to optimize the process of Learning in our target task. So our Meta-Learning schedule is indeed a schedule for Learning to Learn. Any approach that falls into that definition is a Meta-Learning approach. You must also notice the difference between that and other similar techniques. For example, in Transfer Learning (another different whole topic) you do not learn how to learn for an specific task (or a task from an specific domain), but instead use old knowledge to get closer to the optimal solution (when you learned that old knowledge, you learned it for a whole different solution and was not intended to extend to any other different problem, thus there doesn't exist a Meta-Learning level). Some related topics are:
 
@@ -52,11 +48,11 @@ Ok, so now we have an idea of what is Meta-Learning and how to use it. But why u
 
 The term arose in a publication in Jürgen Schmidhuber's thesis called [*Evolutionary Principles in Self-Referential Learning*](https://people.idsia.ch/~juergen/diploma1987ocr.pdf) (1987). The paper is incredibly dense, but a mine of knowledge and talks about some deep topics such as Information, Entropy, Evolution... We may talk specifically about this paper in future posts, but what concerns us now is that it presented the idea of Meta-Learning as a way to modify the plans (the equivalent of what the schedulers + optimizers in ML mean nowadays) in order to generalize to a whole group of domains. This group is again some kind of (meta-)domain, so it also needed some (meta-)plan. The hypothesis that Schmidhuber did back in 1987 is that this concept was extendable to infinite levels of abstraction, thus allowing the definition (apart from the domain level and the meta-level) of a meta-meta-level, a meta-meta-meta-level, and so on, although the paper also points the compromise that the realization has with the computation capacity of the hardware (plus recall we are in 1987, there were no NVIDIA RTX 4090... actually [the first GPU](https://en.wikipedia.org/wiki/GeForce_256) came out 12 years later). He proposed 2 ways to implement Meta-Learning:
 
-![Imgur](https://i.imgur.com/KWobPej.png)
-![Imgur](https://i.imgur.com/blCSh2S.png)
-
 * First, as a Genetic Algorithm. My interpretation is that he was wondering about what nowadays is Curriculum Learning, but from a Meta-Learning perspective. He proposed that at the Meta-Level the plan should schedule the best samples for the domain level. His own concerns? About "nature" (AI then aimed more to mimic true intelligence) and feasibility.
 * Second, as a hierarchy of classifiers building the Genetic Algorithm, which will act at the meta-level. Schmidhuber pointed out that this way the mechanism could work with a fixed number of levels, just the domain level (each classifier) and the meta-level (the Genetic Algorithm).
+
+![Imgur](https://i.imgur.com/KWobPej.png)
+![Imgur](https://i.imgur.com/blCSh2S.png)
 
 Another interesting interpretation from the paper is the way a plan works in a Genetic Algorithm, which is similar to the environment in Reinforcement Learning. Thus, surviving a plan in a Genetic Algorithm can be viewed as getting a reward in Reinforcement Learning.
 
