@@ -2,7 +2,7 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting"  style="width:80%">
 
   <header class="post-header" style="background-color:powderblue;">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -21,7 +21,7 @@ layout: default
     {% include sharelinks.html %}
   </div>
 
-  <div class="post-content e-content" itemprop="articleBody" style="width:80%">
+  <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
     {% include navlinks.html %}
   </div>
