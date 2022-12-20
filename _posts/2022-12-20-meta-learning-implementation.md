@@ -206,7 +206,7 @@ plt.imshow(dataset[0][0][0].numpy())
 
 
     
-![png](Metabloggism_Meta-Learning_files/Metabloggism_Meta-Learning_36_1.png)
+![sample](https://i.imgur.com/zimxwVw.png)
     
 
 
@@ -748,7 +748,7 @@ for ibatch, batch in enumerate(problem_loader):
 
 
     
-![png](Metabloggism_Meta-Learning_files/Metabloggism_Meta-Learning_94_0.png)
+![problem](https://i.imgur.com/hTD81J1.png)
     
 
 
@@ -907,7 +907,7 @@ for imb in range(8):
 
 
     
-![png](Metabloggism_Meta-Learning_files/Metabloggism_Meta-Learning_107_0.png)
+![metabatch](https://i.imgur.com/p79tpSr.png)
     
 
 
@@ -946,7 +946,7 @@ for i, data in enumerate(toy_problem_loader, 0):
 
 
     
-![png](Metabloggism_Meta-Learning_files/Metabloggism_Meta-Learning_114_0.png)
+![toyproblem](https://i.imgur.com/CkA6Zs9.png)
     
 
 
