@@ -1,3 +1,7 @@
+# Meta-Learning implementation
+
+**IMPORTANT NOTE:** This post consists in a Python Notebook. I inserted the content in Markdown into the blog, so you'll find explanations, code and results. A copy of the Notebook itself [is also shared](https://colab.research.google.com/drive/1MmAdSuQbB4kfUtEntL0PmQmtvbaR3QtU?usp=sharing).
+
 # Meta-Learning: Experiment & MAML implementation by Metabloggism
 
 Welcome to this first Notebook by Metabloggism! This episode follows directly the post [Meta-Learning explained](https://metabloggism.github.io/2022/11/21/meta-learning.html). As a recap from it, we reviewed the meaning of Meta-Learning, how it did appear and evolve and how is it approached nowadays. We concluded that today, we use Meta-Learning mostly as a tool against scenarios with few data in a specific problem we want to solve but where we are able to find data from related problems, thus building a domain of problems in a higher level from Learning called *Meta-Learning*. At this level you may learn how to learn efficiently in each problem, and that may be done in different ways. One of the most praised approaches in the last years, and the one which probably is more commonly used in these settings is [MAML](https://arxiv.org/pdf/1703.03400.pdf), which at the Meta-Learning level learns a proper general (in the problems domain) initialization of any (learnable by gradient descent) model at the Learning level. If you still have doubts, I would recommend reading the mentioned post again before reading this Notebook.
@@ -6378,4 +6382,6 @@ As said before, we don't want to check the performance of the approach since we 
 
 In the next post, my intention is to see make a performance analysis of this and compare it to other approaches.
 
-Again, thank you for your attention and we'll meet in the next post!
+## Thank you again, reader
+
+This is my second blog post and the first in which I presented code. I had an enjoyable experience with it and I will repeat this format for sure! Actually, in the next post I pretend to expose one more episode about this Meta-Learning topic, in which I may perform some analysis of the apporach results, comparisons, etc. Again, thank you for your attention and we'll meet in the next post!
