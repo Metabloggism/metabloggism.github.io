@@ -1149,7 +1149,7 @@ plt.plot([pstep['train']['loss'] for pstep in metalearning_training[0]['Problems
 
 
     
-![png](output_39_1.png)
+![Imgur](https://i.imgur.com/VUKBEwn.png)
     
 
 
@@ -1187,7 +1187,7 @@ for iims in range(13):
 
 
     
-![png](output_46_0.png)
+![Imgur](https://i.imgur.com/YW2d3FR.png)
     
 
 
@@ -1205,7 +1205,7 @@ for iims in range(13):
 
 
     
-![png](output_48_0.png)
+![Imgur](https://i.imgur.com/0ZOKxw8.png)
     
 
 
@@ -1229,7 +1229,7 @@ plt.plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems']]) / 8 for
 
 
     
-![png](output_52_1.png)
+![Imgur](https://i.imgur.com/bUdtqKi.png)
     
 
 
@@ -1247,7 +1247,7 @@ plt.plot(smooth_plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems
 
 
     
-![png](output_53_1.png)
+![Imgur](https://i.imgur.com/wlviyto.png)
     
 
 
@@ -1269,7 +1269,7 @@ for ims, metastep in enumerate(metalearning_training):
 
 
     
-![png](output_56_0.png)
+![Imgur](https://i.imgur.com/e43bVJ6.png)
     
 
 
@@ -1291,7 +1291,7 @@ plt.plot([(sum([problem[-1]['validation']['loss'] for problem in metastep['Probl
 
 
     
-![png](output_59_1.png)
+![Imgur](https://i.imgur.com/DvwFKx2.png)
     
 
 
@@ -1311,7 +1311,7 @@ plt.plot(smooth_plot([(sum([problem[-1]['validation']['loss'] for problem in met
 
 
     
-![png](output_61_1.png)
+![Imgur](https://i.imgur.com/jFanzzG.png)
     
 
 
@@ -1601,7 +1601,7 @@ plt.plot([pstep['train']['loss'] for pstep in metalearning_training[0]['Problems
 
 
     
-![png](output_70_1.png)
+![Imgur](https://i.imgur.com/dVREBzT.png)
     
 
 
@@ -1623,7 +1623,7 @@ for iims in range(vertical):
 
 
     
-![png](output_72_0.png)
+![Imgur](https://i.imgur.com/2u9TTx0.png)
     
 
 
@@ -1640,7 +1640,7 @@ for iims in range(vertical):
 
 
     
-![png](output_73_0.png)
+![Imgur](https://i.imgur.com/durDGE6.png)
     
 
 
@@ -1658,7 +1658,7 @@ plt.plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems']]) / 8 for
 
 
     
-![png](output_74_1.png)
+![Imgur](https://i.imgur.com/qegOjaS.png)
     
 
 
@@ -1676,7 +1676,7 @@ plt.plot(smooth_plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems
 
 
     
-![png](output_75_1.png)
+![Imgur](https://i.imgur.com/gnIkQ71.png)
     
 
 
@@ -1694,7 +1694,7 @@ for ims, metastep in enumerate(metalearning_training):
 
 
     
-![png](output_76_0.png)
+![Imgur](https://i.imgur.com/7nRMQl4.png)
     
 
 
@@ -1712,7 +1712,7 @@ plt.plot([(sum([problem[-1]['validation']['loss'] for problem in metastep['Probl
 
 
     
-![png](output_77_1.png)
+![Imgur](https://i.imgur.com/V8szfgb.png)
     
 
 
@@ -1732,7 +1732,7 @@ plt.plot(smooth_plot([(sum([problem[-1]['validation']['loss'] for problem in met
 
 
     
-![png](output_79_1.png)
+![Imgur](https://i.imgur.com/pWgUSvo.png)
     
 
 
@@ -2020,7 +2020,7 @@ plt.plot([pstep['train']['loss'] for pstep in metalearning_training[0]['Problems
 
 
     
-![png](output_87_1.png)
+![Imgur](https://i.imgur.com/GKwU7My.png)
     
 
 
@@ -2042,7 +2042,7 @@ for iims in range(vertical):
 
 
     
-![png](output_89_0.png)
+![Imgur](https://i.imgur.com/IDMvVpp.png)
     
 
 
@@ -2059,7 +2059,7 @@ for iims in range(vertical):
 
 
     
-![png](output_90_0.png)
+![Imgur](https://i.imgur.com/sIWcs6k.png)
     
 
 
@@ -2077,7 +2077,7 @@ plt.plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems']]) / 8 for
 
 
     
-![png](output_91_1.png)
+![Imgur](https://i.imgur.com/dUb9WFl.png)
     
 
 
@@ -2095,7 +2095,7 @@ plt.plot(smooth_plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems
 
 
     
-![png](output_92_1.png)
+![Imgur](https://i.imgur.com/eYVQNWb.png)
     
 
 
@@ -2113,7 +2113,7 @@ for ims, metastep in enumerate(metalearning_training):
 
 
     
-![png](output_93_0.png)
+![Imgur](https://i.imgur.com/9D27LTQ.png)
     
 
 
@@ -2131,7 +2131,7 @@ plt.plot([(sum([problem[-1]['validation']['loss'] for problem in metastep['Probl
 
 
     
-![png](output_94_1.png)
+![Imgur](https://i.imgur.com/uV7ujhU.png)
     
 
 
@@ -2151,7 +2151,7 @@ plt.plot(smooth_plot([(sum([problem[-1]['validation']['loss'] for problem in met
 
 
     
-![png](output_96_1.png)
+![Imgur](https://i.imgur.com/uHN8k2R.png)
     
 
 
@@ -2437,7 +2437,7 @@ plt.plot([pstep['train']['loss'] for pstep in metalearning_training[0]['Problems
 
 
     
-![png](output_103_1.png)
+![Imgur](https://i.imgur.com/tUvM0EO.png)
     
 
 
@@ -2459,7 +2459,7 @@ for iims in range(vertical):
 
 
     
-![png](output_105_0.png)
+![Imgur](https://i.imgur.com/lBoGBH6.png)
     
 
 
@@ -2476,7 +2476,7 @@ for iims in range(vertical):
 
 
     
-![png](output_106_0.png)
+![Imgur](https://i.imgur.com/XeAb5uP.png)
     
 
 
@@ -2494,7 +2494,7 @@ plt.plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems']]) / 8 for
 
 
     
-![png](output_107_1.png)
+![Imgur](https://i.imgur.com/qxlE2Zu.png)
     
 
 
@@ -2512,7 +2512,7 @@ plt.plot(smooth_plot([sum([prob[-1]['train']['loss'] for prob in mstep['Problems
 
 
     
-![png](output_108_1.png)
+![Imgur](https://i.imgur.com/35IQH2b.png)
     
 
 
@@ -2530,7 +2530,7 @@ for ims, metastep in enumerate(metalearning_training):
 
 
     
-![png](output_109_0.png)
+![Imgur](https://i.imgur.com/E9DMEbs.png)
     
 
 
@@ -2548,7 +2548,7 @@ plt.plot([(sum([problem[-1]['validation']['loss'] for problem in metastep['Probl
 
 
     
-![png](output_110_1.png)
+![Imgur](https://i.imgur.com/onvGAka.png)
     
 
 
@@ -2568,7 +2568,7 @@ plt.plot(smooth_plot([(sum([problem[-1]['validation']['loss'] for problem in met
 
 
     
-![png](output_112_1.png)
+![Imgur](https://i.imgur.com/lc8Zz6U.png)
     
 
 
@@ -2586,7 +2586,7 @@ plt.plot(smooth_plot([(sum([problem[-1]['validation']['loss'] for problem in met
 
 
     
-![png](output_113_1.png)
+![Imgur](https://i.imgur.com/ZrhqDlJ.png)
     
 
 
