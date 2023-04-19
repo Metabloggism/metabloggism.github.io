@@ -5,10 +5,10 @@ Hello readers, it has been quite some time since our last blog post, and for tha
 ## **Motivation: Why is this today's topic?**
 
 I recently used Shap values in a project and found it to be a chance to tell you something of interest. Shap values are something I've known for some time and they are a powerful and incredibly useful tool for explainable AI. While many of you may be familiar with Shap values, I will take the time to contextualize where they come from, how they work, and how to use them in your projects. For the people who know what it is, you may want to check what you are actually using, while for those who are unfamiliar, I would recommend you use this as an opportunity to learn a new tool and acquire the criterion to choose when it may be useful. So, let's dive in!
-
+ 
 ## **Some Game Theory principles**
  
-No, I'm not throwing random topics at you. Actually, Game Theory is highly correlated to Shap values and now you'll know why.
+ No, I'm not throwing random topics at you. Actually, Game Theory is highly correlated to Shap values and now you'll know why.
  
 Game Theory is not a game. It is a branch of mathematics that aims to **understand how people make decisions when their choices are influenced by others**. It helps us understand how different individuals or groups (and attention to that difference) interact strategically in a decision-making scenario. So it provides a powerful framework to model the behavior of rational agents. Game theory has many applications, from economics and politics to biology and psychology, and its concepts have been used to analyze and solve a variety of real-world problems.
 
@@ -65,15 +65,15 @@ And the same applies in other fields, such as NLP, where the elements also have 
 
 ![](https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/gradient_imagenet_plot.png)
 
-## Summarizing
+## **Summarizing**
 
 Shapley values are a valuable tool, inspired by cooperative Game theory (where they represent each team member's contribution to the outcome) and adapted to ML predictive modeling in order to explain the contribution of different elements (such as features) to a given prediction. There are tools to compute them efficiently and should be considered for explainable AI, especially where no relation is preset among these elements (e.g. raw columns in tabular data).
 
-## Thank you, reader
+## **Thank you, reader**
 
 Thank you again for reading this post! As you know any feedback is welcome. I really hope we can meet soon this time.
 
-## References
+## **References**
 
 *[1]* **[*Using SHAP Values to Explain How Your Machine Learning Model Works*](https://www.kaggle.com/code/dansbecker/shap-values)**
 
