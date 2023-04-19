@@ -5,10 +5,10 @@ Hello readers, it has been quite some time since our last blog post, and for tha
 ## **Motivation: Why is this today's topic?**
 
 I recently used Shap values in a project and found it to be a chance to tell you something of interest. Shap values are something I've known for some time and they are a powerful and incredibly useful tool for explainable AI. While many of you may be familiar with Shap values, I will take the time to contextualize where they come from, how they work, and how to use them in your projects. For the people who know what it is, you may want to check what you are actually using, while for those who are unfamiliar, I would recommend you use this as an opportunity to learn a new tool and acquire the criterion to choose when it may be useful. So, let's dive in!
- 
+
 ## **Some Game Theory principles**
  
- No, I'm not throwing random topics at you. Actually, Game Theory is highly correlated to Shap values and now you'll know why.
+No, I'm not throwing random topics at you. Actually, Game Theory is highly correlated to Shap values and now you'll know why.
  
 Game Theory is not a game. It is a branch of mathematics that aims to **understand how people make decisions when their choices are influenced by others**. It helps us understand how different individuals or groups (and attention to that difference) interact strategically in a decision-making scenario. So it provides a powerful framework to model the behavior of rational agents. Game theory has many applications, from economics and politics to biology and psychology, and its concepts have been used to analyze and solve a variety of real-world problems.
 
