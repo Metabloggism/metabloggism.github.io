@@ -18,11 +18,15 @@ Game theory provides several tools/scenarios for analyzing strategic interaction
 
 Another important concept in Game Theory is the idea of cooperative games, where players form coalitions and share the payoff. In cooperative games, the focus is on how to distribute the payoff among the players, which leads us to the concept of Shapley values in Game Theory.
 
+![](https://www.gametheory.online/projects/1547107965.jpg)
+
 ## **Shap values in Game Theory**
 
 Shapley values were born as a concept in cooperative Game Theory, aiming to distribute the payoff among the players fairly and efficiently. It was introduced by [Lloyd Shapley](https://en.wikipedia.org/wiki/Lloyd_Shapley) in 1953 and has since become an important tool in game theory and Machine Learning. Shapley values take into account the contributions of each player to the coalition, considering all possible ways that the players can form a coalition. The idea is to calculate the marginal contribution of each player to the coalition, which is the difference between the payoff of the coalition with the player and without the player.
 
 The Shapley values provide a unique way to distribute the payoff among the players, based on their contributions to the coalition. They are widely used in cooperative game theory to solve problems such as resource allocation, cost sharing, and voting systems. 
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*AzGc8wSKrP7TzLh84N8Lcg.png)
 
 ## **From Game Theory to predictive modeling**
 
@@ -47,6 +51,8 @@ The scope of this post is not to be a tutorial, but in order to get a better ide
 
 That's all. Yes, python already offers you a package with all you need. This, with a good tutorial on Shap values usage, should be enough to use in your project.
 
+![](https://shap.readthedocs.io/en/latest/_images/shap_header.png)
+
 ## **The "bad" side**
 
 Although Shap values are a simple yet powerful tool for explaining ML predictive models, they still require the user to understand their value or otherwise they will be giving empty insights. 
@@ -57,6 +63,8 @@ Does that mean (in this case) that Shapley values have no place in Computer Visi
 
 And the same applies in other fields, such as NLP, where the elements also have their particular relations.
 
+![](https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/gradient_imagenet_plot.png)
+
 ## Summarizing
 
 Shapley values are a valuable tool, inspired by cooperative Game theory (where they represent each team member's contribution to the outcome) and adapted to ML predictive modeling in order to explain the contribution of different elements (such as features) to a given prediction. There are tools to compute them efficiently and should be considered for explainable AI, especially where no relation is preset among these elements (e.g. raw columns in tabular data).
@@ -64,3 +72,26 @@ Shapley values are a valuable tool, inspired by cooperative Game theory (where t
 ## Thank you, reader
 
 Thank you again for reading this post! As you know any feedback is welcome. I really hope we can meet soon this time.
+
+## References
+
+*[1]* **[*Using SHAP Values to Explain How Your Machine Learning Model Works*](https://www.kaggle.com/code/dansbecker/shap-values)**
+
+*[2]* **[*Explainable AI: Application of shapely values in Marketing Analytics*](https://towardsdatascience.com/explainable-ai-application-of-shapely-values-in-marketing-analytics-57b716fc9d1f)**
+
+*[3]* **[*How to interpret machine learning models with SHAP values*](https://dev.to/mage_ai/how-to-interpret-machine-learning-models-with-shap-values-54jf#:~:text=SHAP%20values%20can%20be%20used,to%20explain%20limited%20model%20types.)**
+
+*[4]* **[*Game Theory*](https://plato.stanford.edu/entries/game-theory/)**
+
+*[5]* **[*Understanding Game Theory*](https://www.skillsyouneed.com/lead/game-theory.html)**
+
+*[6]* **[*Explainable Machine Learning, Game Theory, and Shapley Values: A technical review*](https://www.statcan.gc.ca/en/data-science/network/explainable-learning)**
+
+*[7]* **[*Deep Learning Model Interpretation Using SHAP*](https://towardsdatascience.com/deep-learning-model-interpretation-using-shap-a21786e91d16)**
+
+
+## Some resources
+
+*[1]* **[*Kaggle Shap tutorial*](https://www.kaggle.com/code/dansbecker/shap-values)**
+
+*[2]* **[*SHAP library documentation*](https://shap.readthedocs.io/en/latest/index.html)**
